@@ -1,0 +1,224 @@
+body{
+    background-color: grey;
+    display: block;
+    margin: 8px;
+}
+ .container{
+    display: flex;
+    justify-content: center;
+
+ }
+
+header{
+    background-color: white;
+    color: maroon;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    padding: 10px 100px ;
+    display: inline-block;
+    border: 5px solid orangered;
+    border-radius: 10px;
+    text-align: center;
+    text-shadow: 2px 1px;
+    box-shadow: 5px 5px rgb(179, 8, 179);
+    box-sizing: border-box;
+}
+
+hr{
+    display: block;
+    border-width: 1px;
+}
+
+div{
+    display: block;
+}
+
+.mainbox{
+    border: 10px solid green;
+    position: relative;
+    height: 600px;
+}
+
+
+.b1{
+    width: 250px;
+    height: 250px;
+    padding: 20px 5px;
+    color: maroon;
+    background-color: white;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 27px;
+    text-align: center;
+    text-shadow: 2px 1px;
+    border-radius: 10px;
+    border: 7px solid orangered;
+    box-shadow: 7px 7px rgb(184, 2, 184);
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.b2{
+    width: 250px;
+    height: 250px;
+    padding: 20px 5px;
+    color: maroon;
+    background-color: white;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 27px;
+    text-align: center;
+    text-shadow: 2px 1px;
+    border-radius: 10px;
+    border: 7px solid orangered;
+    box-shadow: 7px 7px rgb(184, 2, 184);
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    right: 50px;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+}
+
+.b3{
+    width: 250px;
+    height: 250px;
+    padding: 20px 5px;
+    color: maroon;
+    background-color: white;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 27px;
+    text-align: center;
+    text-shadow: 2px 1px;
+    border-radius: 10px;
+    border: 7px solid orangered;
+    box-shadow: 7px 7px rgb(184, 2, 184);
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+}
+
+.b4{
+    width: 250px;
+    height: 250px;
+    padding: 20px 5px;
+    color: maroon;
+    background-color: white;
+    text-align: center;
+    text-shadow: 2px 1px;
+    border-radius: 10px;
+    border: 7px solid orangered;
+    box-shadow: 7px 7px rgb(184, 2, 184);
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 20px;
+    right: 50px;
+}
+
+label{
+    font-weight: bold;
+    cursor: default;
+}
+
+.heading{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.submit{
+    color: rgb(155, 1, 1);
+    font-size: 12px;
+    font-weight: bold;
+    background-color: orangered;
+    width: 35%;
+    padding: 0;
+    border-radius: 10px;
+}
+
+.enter{
+    width: 40%;
+}
+
+.card{
+    display: flex;
+    color: rgb(143, 26, 26);
+    border: 7px solid rgb(255, 60, 0);
+    background-color: greenyellow;
+    font-weight: bold;
+    font-style: italic;
+    padding: 15px 10px 5px 20px;
+    justify-content: center;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 7px 7px rgb(151, 19, 151);
+    position: fixed;
+    left: 400px;
+    right: 400px;
+    bottom: 50px;
+    
+}
+
+.c1{
+    display: inline-flex;
+    font-size: 22px;
+    padding-right: 5px;
+}
+
+.c2{
+    font-size: 15px;
+    padding-left: 5px;
+}
+
+.store {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+  }
+  
+  .store-info {
+    border: 10px solid purple;
+    background-color: green;
+  }
+  
+  .store-info h2 {
+    text-align: center;
+  }
+  .store-items {
+    display: flex;
+    font-style: italic;
+  }
+  
+  .store-items div {
+    background-color: rgb(224, 224, 35);
+    text-align: center;
+    margin: 5px;
+    box-sizing: border-box;
+  }
+  
+  .store-items p {
+    padding: 10px;
+  }
+  
+  .others {
+    background-color: rgb(224, 224, 35);
+    text-align: center;
+    box-sizing: border-box;
+    font-style: italic;
+    margin: 5px;
+  }
+  
+  .others p {
+    padding: 10px 10px 30px 10px;
+  }
+  
+  .others h2 {
+    padding-top: 20px;
+  }
