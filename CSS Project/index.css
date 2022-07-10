@@ -1,0 +1,91 @@
+body{
+    padding: 20px;
+} 
+
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    font-size: 50px;
+    font-family: sans-serif;
+    color: gray;
+    position: relative;
+    top: 150px;
+    
+}
+
+
+.b{
+    font-weight: bold;
+    color: black;
+}
+
+.taskslist{
+    position: relative;
+    left: 370px;
+}
+.addlist{
+    position: relative;
+    right: 390px;
+}
+.head2{
+    font-size: 30px;
+    padding-right: 30px;
+    font-family: sans-serif;
+    color: gray;
+}
+
+.main{
+    display: flex;
+    color: red;
+    box-sizing: border-box;
+    position: relative;
+    top: 100px;
+}
+
+.one{
+    border: 1px solid red;
+    border-radius: 17px;
+    padding: 0px 50px ;
+    height: 300px;
+    box-shadow: 2px 2px 10px gray;
+    position: relative;
+    left: 300px;
+    margin: 70px;
+    }
+
+    .one1{
+        border: 1px solid red;
+        border-radius: 17px;
+        padding: 30px 50px ;
+        height: 240px;
+        box-shadow: 2px 2px 10px gray;
+        position: relative;
+        left: 300px;
+        margin: 70px;
+        }
+
+    .line{
+        position: relative;
+        font-size: 30px;
+        font-family: sans-serif;
+        color: red;
+        text-decoration: none;
+    }
+
+    .two{
+        text-decoration: line-through;
+        font-weight: bold;
+        font-family: sans-serif;
+        font-size: 24px;
+    }
+   
+    span{
+        font-family: sans-serif;
+    }
+    .box{
+        color: black;
+        padding: 0%;
+        font-size: 20px
+        
+    }

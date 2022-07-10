@@ -1,0 +1,141 @@
+
+body{
+    padding: 20px;
+} 
+
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    font-size: 50px;
+    font-family: sans-serif;
+    color: gray;
+    position: relative;
+    top: 150px;
+    
+}
+
+
+.b{
+    font-weight: bold;
+    color: black;
+}
+
+.taskslist{
+    position: relative;
+    left: 370px;
+}
+.addlist{
+    position: relative;
+    right: 390px;
+}
+.head2{
+    font-size: 30px;
+    padding-right: 30px;
+    font-family: sans-serif;
+    color: gray;
+}
+
+.main{
+    display: flex;
+    color: red;
+    box-sizing: border-box;
+    position: relative;
+    top: 100px;
+}
+
+.one{
+    border: 1px solid red;
+    border-radius: 17px;
+    padding: 0px 50px ;
+    height: 300px;
+    box-shadow: 2px 2px 10px gray;
+    position: relative;
+    left: 300px;
+    margin: 70px;
+    }
+
+    .one1{
+        border: 1px solid red;
+        border-radius: 17px;
+        padding: 30px 50px ;
+        height: 240px;
+        box-shadow: 2px 2px 10px gray;
+        position: relative;
+        left: 300px;
+        margin: 70px;
+        }
+
+    .line{
+        position: relative;
+        font-size: 30px;
+        font-family: sans-serif;
+        color: red;
+        text-decoration: none;
+    }
+
+    .two{
+        text-decoration: line-through;
+        font-weight: bold;
+        font-family: sans-serif;
+        font-size: 24px;
+    }
+   
+    span{
+        font-family: sans-serif;
+    }
+    .box{
+        color: black;
+        padding: 0%;
+        font-size: 20px
+        
+    }
+
+.filter{
+
+    filter: blur(10px);
+}
+
+.filter-a{
+    font-size: 30px;
+    font-family: sans-serif;
+    height: 250px;
+    width: 600px;
+    border: rgb(255, 71, 71) solid 2px;
+    border-radius: 10px;
+    background-color: white;
+    position: absolute;
+    left: 661px;
+    top: 200px;
+    text-align: center;
+    color: rgb(255, 4, 4);
+    box-shadow: 3px 3px 8px gray;
+}
+
+.filter-b{
+
+    height: 40px;
+    width: 100px;
+    background-color: rgb(219, 0, 0);
+    color: white;
+    position: relative;
+    left: 254px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px; 
+    box-shadow: 2px 2px 10px gray;   
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.textbox{
+    border: tomato solid 1px;
+    box-shadow: 5px 5px 5px lightgray;
+    height: 40px;
+    width: 400px;
+}
+

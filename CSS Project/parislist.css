@@ -1,0 +1,119 @@
+.filter{
+
+    filter: blur(10px);
+}
+
+
+.a1{
+    position: relative;
+    top: 35px;
+    background-color: white;
+    height: 50px;
+    width: 30px;
+    left: 730px;
+    color: rgb(0, 0, 0);
+    font-size: 70px;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-align: center;
+    display: inline;
+    padding: 0px 20px;
+}
+
+.hr1{
+    width: 800px;
+}
+.one{
+    position: absolute;
+    left: 50px;
+}
+
+.img{
+    position: absolute;
+    top: 25px;
+    left: 820px;
+    margin-top: 15px;
+}
+.back{
+    color: gray;
+    font-size: 40px;
+    font-family: sans-serif;
+    position: absolute;
+    padding-top: 50px;
+    left: 900px;
+}
+
+.line{
+    text-decoration-line: line-through;
+    font-size: 23px;
+    font-family: sans-serif;
+    padding-top: 20px;
+    font-weight: bolder;
+    color: tomato;
+}
+.line2{
+    color: black;
+    font-family: sans-serif;
+}
+
+.paris{
+    height: 450px;
+    width: 400px;
+    border: solid 2px tomato;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px gray;
+    padding: 0px 20px;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+    left: 670px;
+    top: 150px;
+    position: absolute;
+    color: red;
+}
+
+.plus{
+    position: relative;
+    top: 180px;
+    left: 180px;
+}
+
+.filter-a{
+    font-size: 30px;
+    font-family: sans-serif;
+    height: 250px;
+    width: 600px;
+    border: rgb(255, 71, 71) solid 2px;
+    border-radius: 10px;
+    background-color: white;
+    position: absolute;
+    left: 661px;
+    top: 200px;
+    text-align: center;
+    color: rgb(255, 4, 4);
+    box-shadow: 3px 3px 8px gray;
+}
+
+.filter-b{
+
+    height: 40px;
+    width: 100px;
+    background-color: rgb(219, 0, 0);
+    color: white;
+    position: relative;
+    left: 254px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px; 
+    box-shadow: 2px 2px 10px gray;   
+}
+.textbox{
+    border: tomato solid 1px;
+    box-shadow: 5px 5px 5px lightgray;
+    height: 40px;
+    width: 400px;
+}
